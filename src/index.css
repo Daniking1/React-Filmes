@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+.pika {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+}
+.Lista p {
+  color: black;
+  font-size: xx-large;
+}
+.achado{
+  color: black;
+}
+#root{
+  text-align: center;
+}
+.cabecalho{
+    background: #000000;
+    display: block;
+    justify-content: space-between;
+    padding: 0 2rem;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.titulo{
+  font-size: large;
+  color: white;
+}
+
+.caixa {
+  width: 500px;
+  height: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.botao {
+  background-color: blue;
+  color: white;
+  border-radius: 5px;
+  border: white;
+  margin-left: 10px;
+  height: 20px;
+}
+
